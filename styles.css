@@ -127,9 +127,20 @@ body {
   color: var(--light);
   text-decoration: none;
   letter-spacing: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 34px;
+  width: 34px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .logo-sm { font-size: 1rem; }
+.logo-sm .logo-img { height: 26px; width: 26px; }
 
 /* ─── Hero ──────────────────────────────────────────────────────── */
 .hero {
